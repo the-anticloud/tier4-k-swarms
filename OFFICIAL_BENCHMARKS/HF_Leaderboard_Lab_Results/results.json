@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_SWARMS",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "kyegomez/swarms",
+  "commit": "",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 50.26,
+      "min": 41.53,
+      "max": 59.04,
+      "all": [
+        59.04,
+        49.48,
+        45.62,
+        55.62,
+        41.53
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_SWARMS (kyegomez/swarms) \u2014 0 files, 0 source lines, licence unknown, primary language []",
+      "token_count": 30,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "swarm",
+        "##s",
+        "(",
+        "ky",
+        "##ego",
+        "##me",
+        "##z",
+        "/",
+        "swarm",
+        "##s",
+        ")",
+        "\u2014",
+        "0",
+        "files",
+        ",",
+        "0",
+        "source"
+      ],
+      "tokenization_latency_ms": 0.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5754,
+      "classification_latency_ms": 77.78,
+      "status": "PASS"
+    }
+  }
+}

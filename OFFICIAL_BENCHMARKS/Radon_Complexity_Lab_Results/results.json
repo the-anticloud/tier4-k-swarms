@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_SWARMS",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 2.801418439716312
+    },
+    "complexity_grade": "A",
+    "complexity_score": 2.801418439716312,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SWARMS\\UPSTREAM\\scripts\\examples.py\n    F 4:0 get_example_py_urls - A (5)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SWARMS\\UPSTREAM\\scripts\\github_commits.py\n    F 73:0 fetch_github_commits - D (24)\n    F 43:0 parse_github_repo_url - B (6)\n    F 24:0 _parse_date - A (5)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SWARMS\\UPSTREAM\\scripts\\llm_txt.py\n    F 5:0 concat_all_md_files - B (9)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SWARMS\\UPSTREAM\\swarms\\env.py\n    F 6:0 load_swarms_env - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SWARMS\\UPSTREAM\\swarms\\__init__.py\n    F 18:0 __getattr__ - A (3)\n    F 46:0 __dir__ - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SWARMS\\UPSTREAM\\tests\\test_cli.py\n    M 166:4 TestSetupArgumentParser.test_heavy_swarm_model_help_states_the_real_default - A (5)\n    C 66:0 TestSetupArgumentParser - A (3)\n    M 79:4 TestSetupArgumentParser.test_valid_commands_parse - A (3)\n    C 570:0 TestCLIUtils - A (3)\n    M 577:4 TestCLIUtils.test_colors_dict_has_required_keys - A (3)\n    M 594:4 TestCLIUtils.test_detect_active_provider_no_keys - A (3)\n    M 617:4 TestCLIUtils.test_detect_active_provider_multiple - A (3)\n    M 75:4 TestSetupArgumentParser.test_returns_parser - A (2)\n    M 105:4 TestSetupArgumentParser.test_default_yaml_file - A (2)\n    M 110:4 TestSetupArgumentParser.test_custom_yaml_file - A (2)\n    M 117",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SWARMS\\UPSTREAM\\example.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SWARMS\\UPSTREAM\\scripts\\examples.py - A (59.99)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SWARMS\\UPSTREAM\\scripts\\github_commits.py - A (59.52)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SWARMS\\UPSTREAM\\scripts\\llm_txt.py - A (77.10)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\K_SWARMS\\UPSTREAM\\"
+  }
+}

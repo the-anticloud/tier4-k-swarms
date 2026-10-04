@@ -1,0 +1,16 @@
+{
+  "project": "K_SWARMS",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "timestamp": "2026-10-01",
+  "benchmark_type": "local_static",
+  "bandit_high": 1,
+  "bandit_medium": 57,
+  "bandit_status": "fail",
+  "radon_cc_grade": "3.5010981584727148",
+  "radon_cc_score": null,
+  "radon_mi_avg": null,
+  "python_files": 1012,
+  "total_files": 1581,
+  "python_loc": 29723,
+  "elapsed_s": 51.74
+}

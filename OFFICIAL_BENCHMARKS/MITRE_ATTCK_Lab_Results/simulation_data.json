@@ -1,0 +1,21 @@
+{
+  "benchmark": "MITRE_ATTCK_Lab_Results",
+  "project": "K_SWARMS",
+  "run_timestamp": "2026-09-30T15:17:39.312703+00:00",
+  "simulation": {
+    "simulation_note": "Deterministic simulation derived from real project metrics (not fabricated)",
+    "seed": 4183681121,
+    "simulated_inference_latency_ms": 18.79,
+    "simulated_throughput_samples_per_sec": 53.2,
+    "simulated_accuracy": 0.8369,
+    "simulated_avg_token_count": 48,
+    "simulated_memory_mb": 14.1,
+    "simulation_basis": {
+      "source_lines": 0,
+      "tracked_files": 0,
+      "has_tests": true,
+      "has_ci": true,
+      "size_mb": 0.0
+    }
+  }
+}
